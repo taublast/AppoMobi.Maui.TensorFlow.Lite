@@ -9,7 +9,7 @@
 	</PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AppoMobi.Maui.TensorFlow.Lite" Version="1.0.0.2" />
+    <PackageReference Include="AppoMobi.Maui.TensorFlow.Lite" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

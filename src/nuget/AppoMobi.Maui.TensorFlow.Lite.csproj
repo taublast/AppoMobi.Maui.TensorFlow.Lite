@@ -10,7 +10,8 @@
 
   <PropertyGroup>
     <Packable>True</Packable>
-    <Version>1.0.0.2</Version>
+    <Version>1.0.1</Version>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <Description>.NET Android bindings for Google's TensorFlow Lite with GPU support</Description>
     <PackageTags>android maui</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -26,10 +27,6 @@
 
   </PropertyGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\android\TensorFlowLite.Gpu\AppoMobi.TensorFlow.Lite.Gpu.csproj" />
-	  <ProjectReference Include="..\android\TensorFlowLite\AppoMobi.TensorFlow.Lite.csproj" />
-	</ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\README.md" Link="README.md">
@@ -64,6 +61,21 @@
       <Pack>true</Pack>
       <PackagePath>lib\net7.0-android33.0\</PackagePath>
     </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="AppoMobi.TensorFlow.Lite">
+      <HintPath>..\android\TensorFlowLite\bin\Release\AppoMobi.TensorFlow.Lite.dll</HintPath>
+    </Reference>
+    <Reference Include="AppoMobi.TensorFlow.Lite.Api">
+      <HintPath>..\android\TensorFlowLite\bin\Release\AppoMobi.TensorFlow.Lite.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="AppoMobi.TensorFlow.Lite.Gpu">
+      <HintPath>..\android\TensorFlowLite.Gpu\bin\Release\AppoMobi.TensorFlow.Lite.Gpu.dll</HintPath>
+    </Reference>
+    <Reference Include="AppoMobi.TensorFlow.Lite.Gpu.Api">
+      <HintPath>..\android\TensorFlowLite.Gpu\bin\Release\AppoMobi.TensorFlow.Lite.Gpu.Api.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
