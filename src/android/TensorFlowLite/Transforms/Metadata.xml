@@ -1,0 +1,7 @@
+﻿<metadata>
+
+
+  <attr path="/api/package[@name='org.tensorflow.lite']" name="managedName">AppoMobi.Maui.TensorFlow.Lite</attr>
+  <attr path="/api/package[@name='org.tensorflow.lite.nnapi']" name="managedName">AppoMobi.Maui.TensorFlow.Lite.NNApi</attr>
+
+</metadata>

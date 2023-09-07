@@ -1,0 +1,10 @@
+﻿<metadata>
+
+  <attr path="/api/package[@name='org.tensorflow.lite']" name="managedName">AppoMobi.Maui.TensorFlow.Lite</attr>
+  <attr path="/api/package[@name='org.tensorflow.lite.nnapi']" name="managedName">AppoMobi.Maui.TensorFlow.Lite.NNApi</attr>
+  <attr path="/api/package[@name='org.tensorflow.lite.annotations']" name="managedName">AppoMobi.Maui.TensorFlow.Lite.Annotations</attr>
+  <attr path="/api/package[@name='org.tensorflow.lite.acceleration']" name="managedName">AppoMobi.Maui.TensorFlow.Lite.Acceleration</attr>
+
+  <!--<attr path="/api/package[@name='org.tensorflow.lite']/class[@name='DelegateFactory']" name="visibility">public</attr>-->
+
+</metadata>

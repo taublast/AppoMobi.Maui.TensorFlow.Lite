@@ -1,0 +1,21 @@
+﻿<metadata>
+
+
+
+
+
+  <!--<metadata>
+    <attr
+      path="/api/package[@name='org.tensorflow.lite.gpu']/class[@name='GpuDelegateFactory']"
+      name="managedName">ApiGpuDelegateFactory</attr>
+    <move
+      from="/api/package[@name='org.tensorflow.lite.gpu']/class[@name='GpuDelegateFactory']"
+      to="/api/package[@name='AppoMobi.Maui.TensorFlow.Lite.GPU.Api']" />
+  </metadata>-->
+
+  <attr path="/api/package[@name='org.tensorflow.lite.gpu']" name="managedName">AppoMobi.Maui.TensorFlow.Lite.GPU</attr>
+
+
+  <!--<attr path="/api/package[@name='org.tensorflow.lite']/class[@name='DelegateFactory']" name="visibility">public</attr>-->
+
+</metadata>
