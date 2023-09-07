@@ -52,17 +52,16 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TensorFlowLite.Api\TensorFlow.Lite.Api.csproj">
+    <ProjectReference Include="..\TensorFlowLite.Api\AppoMobi.TensorFlow.Lite.Api.csproj">
       <Project>{fa16363c-22b9-4c9c-8886-448a0080a847}</Project>
-      <Name>TensorFlow.Lite.Api</Name>
+      <Name>AppoMobi.TensorFlow.Lite.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TensorFlowLite.Gpu.Api\TensorFlow.Lite.Gpu.Api.csproj">
+    <ProjectReference Include="..\TensorFlowLite.Gpu.Api\AppoMobi.TensorFlow.Lite.Gpu.Api.csproj">
       <Project>{2d40887c-55f5-447a-b2df-6cfc21cf5924}</Project>
-      <Name>TensorFlow.Lite.Gpu.Api</Name>
+      <Name>AppoMobi.TensorFlow.Lite.Gpu.Api</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
- 
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -10,13 +10,13 @@
 
   <PropertyGroup>
     <Packable>True</Packable>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Description>.NET Android bindings for Google's TensorFlow Lite with GPU support</Description>
     <PackageTags>android maui</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <LangVersion>Latest</LangVersion>
     <RepositoryType>git</RepositoryType>
-    <Title>AppoMobi.Maui.Native</Title>
+    <Title>AppoMobi.TensorFlow.Lite</Title>
     <Authors>Nick Kovalsky aka AppoMobi</Authors>
     <Copyright>(c) AppoMobi, 2023 - present day</Copyright>
       <PackageProjectUrl>https://github.com/taublast/AppoMobi.Maui.TensorFlow.Lite</PackageProjectUrl>
@@ -27,40 +27,40 @@
   </PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\android\TensorFlowLite.Gpu\TensorFlow.Lite.Gpu.csproj" />
-	  <ProjectReference Include="..\android\TensorFlowLite\TensorFlow.Lite.csproj" />
+	  <ProjectReference Include="..\android\TensorFlowLite.Gpu\AppoMobi.TensorFlow.Lite.Gpu.csproj" />
+	  <ProjectReference Include="..\android\TensorFlowLite\AppoMobi.TensorFlow.Lite.csproj" />
 	</ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\README.md" Link="README.md" >
+    <None Include="..\..\README.md" Link="README.md">
       <PackagePath>\</PackagePath>
       <Pack>True</Pack>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\Release\net7.0-android\TensorFlow.Lite.dll">
+    <None Include="bin\Release\net7.0-android\AppoMobi.TensorFlow.Lite.dll">
       <Pack>true</Pack>
       <PackagePath>lib\net7.0-android33.0\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\Release\net7.0-android\TensorFlow.Lite.Api.dll">
+    <None Include="bin\Release\net7.0-android\AppoMobi.TensorFlow.Lite.Api.dll">
       <Pack>true</Pack>
       <PackagePath>lib\net7.0-android33.0\</PackagePath>
     </None>
   </ItemGroup>
   
   <ItemGroup>
-    <None Include="bin\Release\net7.0-android\TensorFlow.Lite.Gpu.dll">
+    <None Include="bin\Release\net7.0-android\AppoMobi.TensorFlow.Lite.Gpu.dll">
       <Pack>true</Pack>
       <PackagePath>lib\net7.0-android33.0\</PackagePath>
     </None>
   </ItemGroup>
   
   <ItemGroup>
-    <None Include="bin\Release\net7.0-android\TensorFlow.Lite.Gpu.Api.dll">
+    <None Include="bin\Release\net7.0-android\AppoMobi.TensorFlow.Lite.Gpu.Api.dll">
       <Pack>true</Pack>
       <PackagePath>lib\net7.0-android33.0\</PackagePath>
     </None>

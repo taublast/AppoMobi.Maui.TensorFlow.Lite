@@ -52,15 +52,15 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TensorFlowLite.Api\TensorFlow.Lite.Api.csproj">
+    <ProjectReference Include="..\TensorFlowLite.Api\AppoMobi.TensorFlow.Lite.Api.csproj">
       <Project>{fa16363c-22b9-4c9c-8886-448a0080a847}</Project>
-      <Name>TensorFlow.Lite.Api</Name>
+      <Name>AppoMobi.TensorFlow.Lite.Api</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties Reactor_Enabled="0" Reactor_Commands="" Reactor_Project="" Reactor_Configuration="" Reactor_Output="" Reactor_Deploy="0" />
+      <UserProperties Reactor_Deploy="0" Reactor_Output="" Reactor_Configuration="" Reactor_Project="" Reactor_Commands="" Reactor_Enabled="0" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

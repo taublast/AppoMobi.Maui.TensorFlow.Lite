@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorFlow.Lite", "android\TensorFlowLite\TensorFlow.Lite.csproj", "{F8C634B0-DB80-4DCA-9397-87CFB8735B4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppoMobi.TensorFlow.Lite", "android\TensorFlowLite\AppoMobi.TensorFlow.Lite.csproj", "{F8C634B0-DB80-4DCA-9397-87CFB8735B4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorFlow.Lite.Gpu.Api", "android\TensorFlowLite.Gpu.Api\TensorFlow.Lite.Gpu.Api.csproj", "{2D40887C-55F5-447A-B2DF-6CFC21CF5924}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppoMobi.TensorFlow.Lite.Gpu.Api", "android\TensorFlowLite.Gpu.Api\AppoMobi.TensorFlow.Lite.Gpu.Api.csproj", "{2D40887C-55F5-447A-B2DF-6CFC21CF5924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorFlow.Lite.Gpu", "android\TensorFlowLite.Gpu\TensorFlow.Lite.Gpu.csproj", "{6A1C979A-3425-461C-B96F-EF1C7FB94B16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppoMobi.TensorFlow.Lite.Gpu", "android\TensorFlowLite.Gpu\AppoMobi.TensorFlow.Lite.Gpu.csproj", "{6A1C979A-3425-461C-B96F-EF1C7FB94B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorFlow.Lite.Api", "android\TensorFlowLite.Api\TensorFlow.Lite.Api.csproj", "{FA16363C-22B9-4C9C-8886-448A0080A847}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppoMobi.TensorFlow.Lite.Api", "android\TensorFlowLite.Api\AppoMobi.TensorFlow.Lite.Api.csproj", "{FA16363C-22B9-4C9C-8886-448A0080A847}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{F957CF35-DF1E-4FF3-99A3-3E5CABDF1C0F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppoMobi.Maui.TensorFlow.Lite", "nuget\AppoMobi.Maui.TensorFlow.Lite.csproj", "{AE778DBA-C324-4656-9FFD-F7FEEF685D0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNuget", "test-nuget\TestNuget.csproj", "{3609F3AF-F7F6-4933-8BE8-203F11AE5686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{AE778DBA-C324-4656-9FFD-F7FEEF685D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE778DBA-C324-4656-9FFD-F7FEEF685D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE778DBA-C324-4656-9FFD-F7FEEF685D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3609F3AF-F7F6-4933-8BE8-203F11AE5686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3609F3AF-F7F6-4933-8BE8-203F11AE5686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3609F3AF-F7F6-4933-8BE8-203F11AE5686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3609F3AF-F7F6-4933-8BE8-203F11AE5686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
